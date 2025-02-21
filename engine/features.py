@@ -8,7 +8,7 @@ import pyautogui
 from engine.helper import extract_yt_term, remove_words
 from engine.config import ASSISTANT_NAME
 from engine.command import speak
-import pywhatkit as kit
+import pywhatkit as kit # type: ignore
 import re
 from sqlite3 import Cursor
 from pipes import quote
