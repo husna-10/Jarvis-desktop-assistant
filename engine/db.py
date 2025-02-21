@@ -37,7 +37,7 @@ cursor.execute(query)
 # con.commit()
 # con.close()
 
-query = "INSERT INTO contacts VALUES (null,'jack', '+919701149464','null')"
+query = "INSERT INTO contacts VALUES (null,'jack', '+91999999999','null')"
 cursor.execute(query)
 con.commit()
 
