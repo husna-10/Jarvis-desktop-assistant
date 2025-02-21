@@ -1,7 +1,7 @@
 import os
 from engine.config import ASSISTANT_NAME
 from engine.command import speak
-import pywhatkit as kit
+import pywhatkit as kit # type: ignore
 import re
 # from playsound import playsound
 # import eel
